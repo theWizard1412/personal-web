@@ -28,10 +28,7 @@ const About = () => {
                 There, I developed gateway software for browser-based UIs, optimized system performance on AARCH64 architectures, 
                 and collaborated with hardware engineers to validate firmware.
               </p>
-              <p>
-                Beyond coding, I've served as the International Student Association President, 
-                organizing cultural events and fostering student connections.
-              </p>
+           
             </div>
 
             <div className="space-y-6">

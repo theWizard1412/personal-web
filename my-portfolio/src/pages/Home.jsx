@@ -1,7 +1,7 @@
 import React from 'react';
 import { Github, Linkedin, Mail, ChevronRight, User, Code2, Cpu } from 'lucide-react';
 // Make sure to import your profile image if you haven't yet:
-// import profileImg from '../assets/profile.jpg';
+import profileImg from '../assets/profile.jpg';
 
 const Home = ({ setActiveTab }) => {
   return (
@@ -13,13 +13,13 @@ const Home = ({ setActiveTab }) => {
               Software Engineering Student @ McMaster
             </h2>
             <h1 className="text-5xl lg:text-7xl font-extrabold text-white tracking-tight">
-              Engineering <br />
+              Merlin <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">
-                Performance
+                Liu
               </span>
             </h1>
             <p className="text-lg text-slate-400 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-              I am a Software Engineering student at McMaster University with a 3.9 GPA. 
+              Software Engineering student at McMaster University. 
               I build full-stack applications and embedded systems, bridging the gap between hardware and software.
             </p>
           </div>
@@ -54,7 +54,7 @@ const Home = ({ setActiveTab }) => {
             <div className="absolute inset-0 bg-gradient-to-tr from-blue-500 to-purple-500 rounded-full opacity-20 blur-3xl animate-pulse"></div>
             <div className="relative w-full h-full bg-slate-800 rounded-full border-4 border-slate-700 overflow-hidden flex items-center justify-center">
                {/* Replace with your <img> tag here */}
-               <User className="w-32 h-32 text-slate-600" />
+               <img src={profileImg} alt="Profile" className="w-full h-full rounded-full object-cover" />
             </div>
             
             <div className="absolute -top-4 -right-4 bg-slate-800 p-4 rounded-xl border border-slate-700 shadow-xl hidden sm:block animate-bounce" style={{ animationDuration: '3s' }}>
